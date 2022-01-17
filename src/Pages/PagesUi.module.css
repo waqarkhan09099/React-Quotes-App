@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.centered{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem ;
+    border: 3px solid grey;
+    border-radius: 10rem;
+    background: rgba(128, 128, 128, 0.568);
+    font-weight: bold;
+}
+
+.centered a:hover{
+    background: white;
+    color: black;
+    transform: scale(1.02);
+}
